@@ -10,7 +10,7 @@ function PortfolioProject_3() {
         <Consumer>
             {value => (
                 <Fragment>
-                    <Container>
+                    <Container className="portfolio-projects">
                         <h2>{value.portfolio_3_title}</h2>
                         <Button variant="light" onClick={() => setModalShow(true)}>
                             <Image src={value.portfolio_3_image_main} fluid className="p-2 " />
@@ -19,8 +19,8 @@ function PortfolioProject_3() {
                     <ModalComponent
                         show={modalShow}
                         title={value.portfolio_3_title}
-                        subtitle={value.portfolio_3_subtitle}
-                        body={value.portfolio_3_body}
+                        subtitle_1={value.portfolio_3_subtitle_1}
+                        body_1={value.portfolio_3_body_1}
                         image_a={value.portfolio_3_image_a}
                         image_b={value.portfolio_3_image_b}
                         image_c={value.portfolio_3_image_c}

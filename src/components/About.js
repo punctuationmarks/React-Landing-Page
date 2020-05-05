@@ -6,7 +6,6 @@ function About() {
     return (
         <Fragment>
             <Container id="about-section">
-                <h2>About</h2>
                 <p>EcoVerde, Ecoconsulting and Management Inc., provides sustainable, creative, low impact design, consulting and management solutions to our clients through focusing on three fundamental goals and objectives:</p>
                 <h3>
                     We are Client-centric</h3>

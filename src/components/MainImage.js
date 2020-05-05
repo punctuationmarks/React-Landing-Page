@@ -4,13 +4,12 @@ import { Consumer, } from "../providers/Provider";
 
 
 
-function Landing() {
+function MainImage() {
     return (
         <Consumer>
             {value => (
                 <Fragment>
-                    <Container className="center">
-                    <Image src={value.landingLogo}  fluid />
+                    <Container id="main-image">
                     <Image src={value.landingProjectImage}  fluid />
                     </Container>
                 </Fragment>
@@ -20,4 +19,4 @@ function Landing() {
     );
 }
 
-export default Landing;
+export default MainImage;
