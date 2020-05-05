@@ -14,7 +14,7 @@ class Services extends React.Component {
                         <Fragment>
                             {matches.small &&
                                 <Fragment>
-                                    <Container className="section-container">
+                                    <Container id="services" className="section-container">
                                         <h2 className="section-h2 center">Services Provided</h2>
 
                                         <Row>
@@ -50,7 +50,7 @@ class Services extends React.Component {
                             }
                             {matches.medium &&
                                 <Fragment>
-                                    <Container className="section-container">
+                                    <Container id="services" className="section-container">
                                         <h2 className="section-h2 center">Services Provided</h2>
                                         <Row >
                                             <Col>

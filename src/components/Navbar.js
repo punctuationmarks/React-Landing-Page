@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import { Navbar, Nav, Button, NavDropdown, Form, FormControl } from 'react-bootstrap';
 
-
 const NavbarComponent = () => (
     <Fragment>
         <Navbar bg="light" expand="md" id="navbar-section">
@@ -9,9 +8,9 @@ const NavbarComponent = () => (
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">Services</Nav.Link>
-                    <Nav.Link href="#about">About</Nav.Link>
-                    <Nav.Link href="#contact">Contact</Nav.Link>
+                    <a href="#services">Services </a>
+                    <a href="#about-section">About </a>
+                    <a href="mailto:email@email.com">Contact</a>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
