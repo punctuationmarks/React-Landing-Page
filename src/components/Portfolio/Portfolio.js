@@ -19,7 +19,7 @@ class Portfolio extends React.Component {
                         <Fragment>
                             {matches.small &&
                                 <Fragment>
-                                    <Container id="portfolio-section">
+                                    <Container className="section-container">
                                         <Row >
                                             <PortfolioProject_1 />
                                         </Row>

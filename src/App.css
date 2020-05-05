@@ -7,18 +7,17 @@
   --faded-black: #40404060;
 }
 
-body{
-  font-family: 'Gotham', 'Helvetica', 'sans serif';
-}
-
-/* font-family: 'Gotham', 'Helvetica', 'sans serif'; */
-
 @font-face {
   src: url(fonts/GothamMedium.ttf);
   font-family: 'Gotham';
 }
 
-#portfolio-section {
+body{
+  font-family: 'Gotham', 'Helvetica', 'sans serif';
+}
+
+
+.section-container{
   padding: 2em 1em 1em 2em;
 }
 
@@ -38,4 +37,19 @@ body{
 
 .modal-title {
   color: var(--faded-black);
+}
+
+#navbar-section{
+  padding: 1em 0 3em 1em;
+}
+
+.section-h2{
+  text-align: center;
+}
+
+
+@media (min-width:1200px) {
+  #main-image {
+    padding: 0 1em 1em 3em;
+  }
 }

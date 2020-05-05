@@ -8,13 +8,13 @@ const Footer = () => (
             <div className="col-md-4">
                 <ul className="list-inline social-buttons">
                     <li className="list-inline-item">
-                        <a href="/contact">
+                        <a href="mailto:someone@email.com">
                             <Mail />
                             {/* <i className="far fa-envelope"></i> */}
                         </a>
                     </li>
                     <li className="list-inline-item">
-                        <a href="https://www.facebook.com/ecoverde" target="_blank" rel="noopener noreferrer" >
+                        <a href="https://www.facebook.com/ecoverdeinc" target="_blank" rel="noopener noreferrer" >
                             {/* <i className="fab fa-facebook-f"></i> */}
                             <Facebook />
                         </a>

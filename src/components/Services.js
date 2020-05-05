@@ -4,7 +4,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 function Portfolio() {
     return (
         <Fragment>
-            <Container>
+            <Container className="section-container">
+                <h2 className="section-h2 center">Services Provided</h2>
                 <Row >
                     <Col xs={6} md={4}>
                         <h4>Consulting</h4>

@@ -52,10 +52,11 @@ class App extends React.Component {
                   <Col>
                     <LandingLogo />
                   </Col>
+
                 </Row>
 
-                <Portfolio />
                 <Services />
+                <Portfolio />
                 <About />
                 <Footer />
               </Fragment>

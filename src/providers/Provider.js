@@ -15,6 +15,8 @@ import KingDoughPizzaPatio1 from "../static/portfolio_images/KingDoughPizza/fini
 import KingDoughPizzaPatio2 from "../static/portfolio_images/KingDoughPizza/patio.jpg"
 import KingDoughPizzaMural from "../static/portfolio_images/KingDoughPizza/street_view.jpg"
 
+import ResidentialFence1 from "../static/portfolio_images/EnvironmentalManagement/residential_fence1.jpg"
+import ResidentialFence2 from "../static/portfolio_images/EnvironmentalManagement/residential_fence2.jpg"
 
 // Set Up The Initial Context
 const BusinessContext = React.createContext();
@@ -64,10 +66,10 @@ class Provider extends React.Component {
         portfolio_3_title: "Environmental Management",
         portfolio_3_subtitle_1: "",
         portfolio_3_body_1: "Storm Water Pollution Prevention Plan compliance inspections and management. We proactively keep our clients SWPPP compliant.",
-        portfolio_3_image_main: Gateway_FletcherPlace,
-        portfolio_3_image_a: Gateway_FletcherPlace,
-        portfolio_3_image_b: Gateway_Spring,
-        portfolio_3_image_c: Gateway_NW,
+        portfolio_3_image_main: ResidentialFence1,
+        portfolio_3_image_a: ResidentialFence1,
+        portfolio_3_image_b: ResidentialFence2,
+        portfolio_3_image_c: IdleWorkers,
 
 
         updateBusiness: (business) => this.updateBusiness(business),
