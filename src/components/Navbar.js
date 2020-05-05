@@ -4,7 +4,7 @@ import { Navbar, Nav, Button, NavDropdown, Form, FormControl } from 'react-boots
 const NavbarComponent = () => (
     <Fragment>
         <Navbar bg="light" expand="md" id="navbar-section">
-            <Navbar.Brand href="#home">EcoVerde Inc.</Navbar.Brand>
+            <Navbar.Brand>EcoVerde Inc.</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
