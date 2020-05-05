@@ -20,7 +20,7 @@ const Footer = () => (
                         </a>
                     </li>
                     <li className="list-inline-item">
-                        <span className="text-muted">EcoVerde Inc. 2019 </span>
+                        <span>EcoVerde Inc. 2020 </span>
                     </li>
                 </ul>
             </div>
