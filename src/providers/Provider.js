@@ -2,6 +2,8 @@ import React from "react";
 
 import EcoVerdeLandingLogo from "../static/EcoVerdeLandingLogo.png"
 // services/projects images
+import Gateway_FletcherPlaceLarge from "../static/portfolio_images/FletcherPlaceGateway/Gateway_FletcherPlaceLarge.jpg"
+
 import Gateway_FletcherPlace from "../static/portfolio_images/FletcherPlaceGateway/Gateway_FletcherPlace.jpg"
 import Gateway_Spring from "../static/portfolio_images/FletcherPlaceGateway/Gateway_Spring.jpg"
 import Gateway_NW from "../static/portfolio_images/FletcherPlaceGateway/Gateway_NW.jpg"
@@ -38,7 +40,7 @@ class Provider extends React.Component {
         services: "Lorem ipsum dolor",
 
         landingLogo: EcoVerdeLandingLogo,
-        landingProjectImage: Gateway_FletcherPlace,
+        landingProjectImage: Gateway_FletcherPlaceLarge,
         portfolio_1_title: "Community Development",
         portfolio_1_subtitle_1: "Fletcher Place Gateway",
         portfolio_1_body_1: "The Fletcher Place Gateway was created to create a sense of identity and place for the Fletcher Place Neighborhood near downtown Indianapolis.",
