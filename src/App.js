@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Media from 'react-media';
 import Navbar from "./components/Navbar";
 import LandingLogo from "./components/LandingLogo";

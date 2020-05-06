@@ -7,8 +7,8 @@
   --faded-black: #40404060;
 }
 
-body {
-  font-family: 'Gotham', 'Helvetica', 'sans serif';
+html {
+  font-family: 'Gotham', Helvetica, 'sans serif';
 }
 
 @font-face {
@@ -16,19 +16,18 @@ body {
   font-family: 'Gotham';
 }
 
-
-a{
+a {
   color: var(--eco-verde-gray);
   padding: 1em;
 }
 
-ul, li{
+ul, li {
   color: (var(--eco-verde-gray));
 }
+
 .section-container {
   padding: 2em 1em 1em 2em;
 }
-
 
 .portfolio-projects {
   padding: 1em 0 2em 0;

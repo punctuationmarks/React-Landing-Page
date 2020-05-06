@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import Media from 'react-media';
-import PortfolioProject_1 from "./PortfolioProject_1";
-import PortfolioProject_2 from "./PortfolioProject_2";
-import PortfolioProject_3 from "./PortfolioProject_3";
+import PortfolioProject1 from "./PortfolioProject1";
+import PortfolioProject2 from "./PortfolioProject2";
+import PortfolioProject3 from "./PortfolioProject3";
 import { Container, Row, Col } from 'react-bootstrap';
 
 class Portfolio extends React.Component {
@@ -21,13 +21,13 @@ class Portfolio extends React.Component {
                                 <Fragment>
                                     <Container className="section-container">
                                         <Row >
-                                            <PortfolioProject_1 />
+                                            <PortfolioProject1 />
                                         </Row>
                                         <Row>
-                                            <PortfolioProject_2 />
+                                            <PortfolioProject2 />
                                         </Row>
                                         <Row>
-                                            <PortfolioProject_3 />
+                                            <PortfolioProject3 />
 
                                         </Row>
                                     </Container>
@@ -38,13 +38,13 @@ class Portfolio extends React.Component {
                                     <Container id="portfolio-section">
                                         <Row >
                                             <Col xs={6} md={4}>
-                                                <PortfolioProject_1 />
+                                                <PortfolioProject1 />
                                             </Col>
                                             <Col xs={6} md={4}>
-                                                <PortfolioProject_2 />
+                                                <PortfolioProject2 />
                                             </Col>
                                             <Col xs={6} md={4}>
-                                                <PortfolioProject_3 />
+                                                <PortfolioProject3 />
                                             </Col>
 
                                         </Row>
@@ -56,13 +56,13 @@ class Portfolio extends React.Component {
                                     <Container id="portfolio-section">
                                         <Row >
                                             <Col xs={6} md={4}>
-                                                <PortfolioProject_1 />
+                                                <PortfolioProject1 />
                                             </Col>
                                             <Col xs={6} md={4}>
-                                                <PortfolioProject_2 />
+                                                <PortfolioProject2 />
                                             </Col>
                                             <Col xs={6} md={4}>
-                                                <PortfolioProject_3 />
+                                                <PortfolioProject3 />
                                             </Col>
 
                                         </Row>
