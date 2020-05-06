@@ -7,13 +7,13 @@
   --faded-black: #40404060;
 }
 
+body {
+  font-family: 'Gotham', 'Helvetica', 'sans serif';
+}
+
 @font-face {
   src: url(fonts/GothamMedium.ttf);
   font-family: 'Gotham';
-}
-
-body {
-  font-family: 'Gotham', 'Helvetica', 'sans serif';
 }
 
 
